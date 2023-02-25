@@ -1,6 +1,6 @@
-<h3><p style="font-size:14px" align="center"> Presented to you By:
-<a href="https://twitter.com/DanteCraze" target="_blank">My Twitter</a></p></h3>
-<h3><p style="font-size:14px" align="right">Hetzner :
+<h3><p style="font-size:14px" align="center"> Presented to you By :
+<a href="https://twitter.com/DanteCraze" target="_blank">Dante Craze</a></p></h3>
+<h3><p style="font-size:14px" align="center">Hetzner :
 <a href="https://hetzner.cloud/?ref=IHufP2lNzBje" target="_blank">You can Get 20€ Bonus for deploying VPS!</a></h3>
 <hr>
 
