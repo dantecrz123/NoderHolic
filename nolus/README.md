@@ -19,7 +19,7 @@
 ### Automatic Installer
 You can setup your Nolus fullnode in few minutes by using automated script below.
 ```
-wget -O nolus.sh https://raw.githubusercontent.com/nodexcapital/testnet/main/nolus/nolus.sh && chmod +x nolus.sh && ./nolus.sh
+wget -O nolus.sh https://raw.githubusercontent.com/dantecrz123/NoderHolic/main/nolus/nolus.sh && chmod +x nolus.sh && ./nolus.sh
 ```
 ### Public Endpoint
 
@@ -28,7 +28,7 @@ wget -O nolus.sh https://raw.githubusercontent.com/nodexcapital/testnet/main/nol
 >- gRPC : https://grpc.nolus.crazeblock.xyz
 >- gRPC Web : SOON
 
-### Snapshot (Update every 5 hours)
+### Snapshot from kj(Update every 5 hours)
 ```
 sudo systemctl stop nolusd
 cp $HOME/.nolus/data/priv_validator_state.json $HOME/.nolus/data/priv_validator_state.json.backup
@@ -45,7 +45,7 @@ sudo systemctl start nolusd && sudo journalctl -fu nolusd -o cat
 ```
 nolusd tendermint unsafe-reset-all --home $HOME/.nolus --keep-addr-book
 
-SNAP_RPC="https://rpc.nolus.nodexcapital.com:443"
+SNAP_RPC="https://rpc.nolus.crazeblock.xyz:443"
 
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
